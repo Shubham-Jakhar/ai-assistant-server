@@ -8,7 +8,7 @@ import system_prompt from './systemPromptTxt.js';
 const app = express();
 const allowedOrigins =[
     'http://localhost:5173',
-    'https://ai-assistant-client-vert.vercel.app/'
+    'https://ai-assistant-client-vert.vercel.app//'
 ]
 app.use(cors({
     origin: allowedOrigins
